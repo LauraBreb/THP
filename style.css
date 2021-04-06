@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* code css après reset */
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1, .container2, .container3, .container4, .container5, .container6, .container7
+{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Verdana;
+}
+
+
+.container1
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+.el1, .el2, .el3, .el4
+{
+    margin: 10px;
+    box-sizing: border-box;
+}
+.hover_underlined_header
+{
+    text-decoration:none;
+    color: black;
+}
+.hover_underlined_header:hover
+{
+    text-decoration:underline;
+}
+
+#applications_google
+{
+    height:30px;
+    width: auto;
+}
+#applications_google:hover
+{
+    background-color: rgba(186, 196, 186,0.5);
+    opacity: 0.8;
+}
+.info span
+{
+    display: none;
+}
+
+.info:hover span
+{
+    display:inline;
+    position:absolute;
+    background-color: rgba(186, 196, 186,0.8);
+    font-size: xx-small;
+    color: white;
+    top: 10%;
+    right: 7%;
+    padding: 3px;
+}
+#connexion
+{
+    background-color: rgb(0, 113, 205);
+    color: #fff;
+    border-style: none;
+    border-radius: 15%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+}
+#connexion:hover
+{
+    box-shadow: 0px 0px 6px rgb(14, 170, 231);
+}
+
+.container2
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom: 2%;
+}
+#logo_google
+{
+    height: 150px;
+    width: auto;
+}
+.container3
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom: 2%;
+}
+.container4
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 2%;
+}
+.container5
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size: smaller;
+    margin-bottom: 10%;
+}
+.container6
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    background-color: rgb(206, 213, 219);
+    padding: 10px;
+}
+.el14
+{
+    margin-left: 10px;
+    color: grey;
+    font-size: smaller;
+}
+.container7
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(206, 213, 219);
+    padding: 10px;
+    border-top: rgb(94, 92, 92) solid 1px;
+
+}
+.el7, .el8, .el9, .el10, .el11, .el12, .el13
+{
+    margin: 10px;
+    text-align: center;
+}
+.hover_underlined, .el13
+{
+    color: grey;
+    font-size: smaller;
+    text-decoration:none;
+}
+.hover_underlined:hover
+{
+    text-decoration:underline;
+}
